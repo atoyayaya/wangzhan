@@ -1,0 +1,286 @@
+--by ato
+
+local ScreenGui = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local Birthplace = Instance.new("TextButton")
+local IceCreamGym = Instance.new("TextButton")
+local MythicalGym = Instance.new("TextButton")
+local EternalGym = Instance.new("TextButton")
+local LegendGym = Instance.new("TextButton")
+local MuscleKindGym = Instance.new("TextButton")
+local Isle = Instance.new("TextButton")
+local LuckyDrawArea = Instance.new("TextButton")
+local AutoRebirth = Instance.new("TextButton")
+local DesertCombatArea = Instance.new("TextButton")
+local DesertArea = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+frame.Name = "frame"
+frame.Parent = ScreenGui
+frame.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+frame.Position = UDim2.new(0.326148063, 0, 0.29880476, 0)
+frame.Size = UDim2.new(0, 392, 0, 500)
+frame.Active = true
+frame.Draggable = true
+
+Birthplace.Name = "Birthplace"
+Birthplace.Parent = frame
+Birthplace.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+Birthplace.Position = UDim2.new(0.0539083555, 0, 0.0744680762, 0)
+Birthplace.Size = UDim2.new(0, 154, 0, 50)
+Birthplace.Font = Enum.Font.GothamBold
+Birthplace.Text = "传送到出生点"
+Birthplace.TextColor3 = Color3.fromRGB(255, 0, 0)
+Birthplace.TextScaled = true
+Birthplace.TextSize = 14.000
+Birthplace.TextWrapped = true
+Birthplace.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(7, 3, 108)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+
+IceCreamGym.Name = "IceCreamGym"
+IceCreamGym.Parent = frame
+IceCreamGym.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+IceCreamGym.Position = UDim2.new(0.560646892, 0, 0.0744680837, 0)
+IceCreamGym.Size = UDim2.new(0, 154, 0, 50)
+IceCreamGym.Font = Enum.Font.GothamBold
+IceCreamGym.Text = "传送到冰霜健身房"
+IceCreamGym.TextColor3 = Color3.fromRGB(255, 0, 0)
+IceCreamGym.TextScaled = true
+IceCreamGym.TextSize = 14.000
+IceCreamGym.TextWrapped = true
+IceCreamGym.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(-2543, 13, -410)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+MythicalGym.Name = "MythicalGym"
+MythicalGym.Parent = frame
+MythicalGym.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+MythicalGym.Position = UDim2.new(0.0539083555, 0, 0.2234042511, 0)
+MythicalGym.Size = UDim2.new(0, 154, 0, 50)
+MythicalGym.Font = Enum.Font.GothamBold
+MythicalGym.Text = "传送到神话健身房"
+MythicalGym.TextColor3 = Color3.fromRGB(255, 0, 0)
+MythicalGym.TextScaled = true
+MythicalGym.TextSize = 14.000
+MythicalGym.TextWrapped = true
+MythicalGym.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(2177, 13, 1070)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+EternalGym.Name = "EternalGym"
+EternalGym.Parent = frame
+EternalGym.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+EternalGym.Position = UDim2.new(0.560646892, 0, 0.2234042511, 0)
+EternalGym.Size = UDim2.new(0, 154, 0, 50)
+EternalGym.Font = Enum.Font.GothamBold
+EternalGym.Text = "传送到永恒健身房"
+EternalGym.TextColor3 = Color3.fromRGB(255, 0, 0)
+EternalGym.TextScaled = true
+EternalGym.TextSize = 14.000
+EternalGym.TextWrapped = true
+EternalGym.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(-6686, 13, -1284)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+LegendGym.Name = "LegendGym"
+LegendGym.Parent = frame
+LegendGym.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+LegendGym.Position = UDim2.new(0.0539083555, 0, 0.3723404185, 0)
+LegendGym.Size = UDim2.new(0, 154, 0, 50)
+LegendGym.Font = Enum.Font.GothamBold
+LegendGym.Text = "传送到传说健身房"
+LegendGym.TextColor3 = Color3.fromRGB(255, 0, 0)
+LegendGym.TextScaled = true
+LegendGym.TextSize = 14.000
+LegendGym.TextWrapped = true
+LegendGym.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(4676, 997, -3915)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+MuscleKindGym.Name = "MuscleKindGym"
+MuscleKindGym.Parent = frame
+MuscleKindGym.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+MuscleKindGym.Position = UDim2.new(0.560646892, 0, 0.3723404185, 0)
+MuscleKindGym.Size = UDim2.new(0, 154, 0, 50)
+MuscleKindGym.Font = Enum.Font.GothamBold
+MuscleKindGym.Text = "传送到肌肉之王健身房"
+MuscleKindGym.TextColor3 = Color3.fromRGB(255, 0, 0)
+MuscleKindGym.TextScaled = true
+MuscleKindGym.TextSize = 14.000
+MuscleKindGym.TextWrapped = true
+MuscleKindGym.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(-8554, 22, -5642)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+Isle.Name = "Isle"
+Isle.Parent = frame
+Isle.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+Isle.Position = UDim2.new(0.0539083555, 0, 0.5212765709, 0)
+Isle.Size = UDim2.new(0, 154, 0, 50)
+Isle.Font = Enum.Font.GothamBold
+Isle.Text = "传送到小岛"
+Isle.TextColor3 = Color3.fromRGB(255, 0, 0)
+Isle.TextScaled = true
+Isle.TextSize = 14.000
+Isle.TextWrapped = true
+Isle.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(-39, 10, 1838)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+LuckyDrawArea.Name = "LuckyDrawArea"
+LuckyDrawArea.Parent = frame
+LuckyDrawArea.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+LuckyDrawArea.Position = UDim2.new(0.560646892, 0, 0.5212765709, 0)
+LuckyDrawArea.Size = UDim2.new(0, 154, 0, 50)
+LuckyDrawArea.Font = Enum.Font.GothamBold
+LuckyDrawArea.Text = "传送到幸运抽奖区域"
+LuckyDrawArea.TextColor3 = Color3.fromRGB(255, 0, 0)
+LuckyDrawArea.TextScaled = true
+LuckyDrawArea.TextSize = 14.000
+LuckyDrawArea.TextWrapped = true
+LuckyDrawArea.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(-2606, -2, 5753)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+DesertCombatArea.Name = "DesertCombatArea"
+DesertCombatArea.Parent = frame
+DesertCombatArea.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+DesertCombatArea.Position = UDim2.new(0.0539083555, 0, 0.6702127233, 0)
+DesertCombatArea.Size = UDim2.new(0, 154, 0, 50)
+DesertCombatArea.Font = Enum.Font.GothamBold
+DesertCombatArea.Text = "传送到沙漠锻炼区域"
+DesertCombatArea.TextColor3 = Color3.fromRGB(255, 0, 0)
+DesertCombatArea.TextScaled = true
+DesertCombatArea.TextSize = 14.000
+DesertCombatArea.TextWrapped = true
+DesertCombatArea.MouseButton1Down:connect(function()
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(855, 100, -6957)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
+ 
+DesertArea.Name = "DesertArea"
+DesertArea.Parent = frame
+DesertArea.BackgroundColor3 = Color3.fromRGB(4, 175, 236)
+DesertArea.Position = UDim2.new(0.560646892, 0, 0.6702127233, 0)
+DesertArea.Size = UDim2.new(0, 154, 0, 50)
+DesertArea.Font = Enum.Font.GothamBold
+DesertArea.Text = "传送到沙漠战斗区域"
+DesertArea.TextColor3 = Color3.fromRGB(255, 0, 0)
+DesertArea.TextScaled = true
+DesertArea.TextSize = 14.000
+DesertArea.TextWrapped = true
+DesertArea.MouseButton1Down:connect(function()
+_G.Sale = true
+local plr = game.Players
+local lplr = plr.LocalPlayer
+local lchar = lplr.Character
+local HRP = lchar.HumanoidRootPart
+ 
+HRP.CFrame = CFrame.new(928.4862060546875, 13.776615142822266, -7378.84228515625)
+ 
+local C = Instance.new("Part")
+C.Parent = workspace
+C.CFrame = CFrame.new(-100, 50, -10000)
+C.Size = Vector3.new(1000000, 100, 10000000)
+C.Anchored = true
+end)
