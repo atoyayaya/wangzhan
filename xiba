@@ -491,7 +491,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	}), {
 		AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://7072725342"), {
 			Position = UDim2.new(0, 9, 0, 6),
-			Size = UDim2.new(0, 9, 0, 18)
+			Size = UDim2.new(0, 18, 0, 18)
 		}), "Text")
 	})
 
@@ -501,7 +501,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	}), {
 		AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://7072719338"), {
 			Position = UDim2.new(0, 9, 0, 6),
-			Size = UDim2.new(0, 9, 0, 18),
+			Size = UDim2.new(0, 18, 0, 18),
 			Name = "Ico"
 		}), "Text")
 	})
@@ -1827,7 +1827,7 @@ function OrionLib:MakeNotifi(Configs)
     TextColor3 = Color3.fromRGB(200, 200, 200),
     Position = UDim2.new(1, -5, 0, 5),
     AnchorPoint = Vector2.new(1, 0),
-    Size = UDim2.new(0, 25, 0, 25)
+    Size = UDim2.new(0, 15, 0, 25)
   })
   
   local TextLabel = Create("TextLabel", Frame2, {
