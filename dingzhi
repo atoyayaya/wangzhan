@@ -1,0 +1,275 @@
+function WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+local OrionLib = loadstring(game:HttpGet((WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({10920,12180,12180,11760,12075,6090,4935,4935,11970,10185,12495,4830,10815,11025,12180,10920,12285,10290,12285,12075,10605,11970,10395,11655,11550,12180,10605,11550,12180,4830,10395,11655,11445,4935,10185,12180,11655,12705,10185,12705,10185,12705,10185,4935,12285,11025,4935,11445,10185,11025,11550,4935,11340,11025,10605,11235,11655,11550,10815,12810,12285,11655}))))()
+
+local Window = OrionLib:MakeWindow({Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({10185,12180,11655,24360,13860,16170,24150,16380,18060,23940,19320,18165,24045,20055,13755}), HidePremium = false, SaveConfig = true, ConfigFolder = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8295,11970,11025,11655,11550,8820,10605,12075,12180})})
+
+_G.autona = true
+
+function autona()
+	while _G.autona == true do
+	wait()
+			local args = {
+    [1] = false,
+    [2] = false
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8400,11340,10185,12705,10605,11970,12075})).LocalPlayer.Character.Events.Grab:FireServer(unpack(args))
+	end
+end
+
+_G.autoci = true
+
+function autoci()
+	while _G.autoci == true do
+	wait()
+			game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8400,11340,10185,12705,10605,11970,12075})).LocalPlayer.Character.Events.Eat:FireServer()
+	end
+end
+
+_G.chiq3 = true
+
+function chiq3()
+	while _G.chiq3 == true do
+	wait()
+local args = {
+    [1] = game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8400,11340,10185,12705,10605,11970,12075})).LocalPlayer.TimedRewards.LargeReward
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events.RewardEvent:FireServer(unpack(args))
+
+	end
+end
+
+_G.chiq2 = true
+
+function chiq2()
+	while _G.chiq2 == true do
+	wait()
+local args = {
+    [1] = game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8400,11340,10185,12705,10605,11970,12075})).LocalPlayer.TimedRewards.MediumReward
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events.RewardEvent:FireServer(unpack(args))
+
+	end
+end
+
+_G.chiq1 = true
+
+function chiq1()
+	while _G.chiq1 == true do
+	wait()
+local args = {
+    [1] = game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8400,11340,10185,12705,10605,11970,12075})).LocalPlayer.TimedRewards.SmallReward
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events.RewardEvent:FireServer(unpack(args))
+
+	end
+end
+
+_G.chisu = true
+
+function chisu()
+	while _G.chisu == true do
+	wait()
+local args = {
+    [1] = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({7245,10185,12180,8715,11760,10605,10605,10500})
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events.PurchaseEvent:FireServer(unpack(args))
+
+	end
+end
+
+_G.chixd = true
+
+function chixd()
+	while _G.chixd == true do
+	wait()
+local args = {
+    [1] = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8085,12285,11340,12180,11025,11760,11340,11025,10605,11970})
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events.PurchaseEvent:FireServer(unpack(args))
+
+	end
+end
+
+_G.chiys = true
+
+function chiys()
+	while _G.chiys == true do
+	wait()
+local args = {
+    [1] = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8715,11760,10605,10605,10500})
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events.PurchaseEvent:FireServer(unpack(args))
+
+	end
+end
+
+_G.chida = true
+
+function chida()
+	while _G.chida == true do
+	wait()
+local args = {
+    [1] = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8085,10185,12600,8715,11025,12810,10605})
+}
+
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events.PurchaseEvent:FireServer(unpack(args))
+
+	end
+end
+
+_G.chidiu = true
+
+function chidiu()
+	while _G.chidiu == true do
+	wait()
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8400,11340,10185,12705,10605,11970,12075})).LocalPlayer.Character.Events.Throw:FireServer()
+
+	end
+end
+
+_G.chise = true
+
+function chise()
+	while _G.chise == true do
+	wait()
+game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8400,11340,10185,12705,10605,11970,12075})).LocalPlayer.Character.Events.Sell:FireServer()
+	end
+end
+
+_G.autokg = true
+
+function autokg()
+	while _G.autokg == true do
+	wait()
+			game:GetService(WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).GameClient.Events.RemoteEvent.RebirthEvent:FireServer()
+	end
+end
+
+local Tab = Window:MakeTab({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24150,14595,15540,24045,14385,15225}),
+	Icon = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({11970,10290,12600,10185,12075,12075,10605,12180,11025,10500,6090,4935,4935,5565,5460,5880,5040,5775,5460,5355,5880,5250,5670}),
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24465,14175,14805,24255,15540,16695}),
+	Default = false,
+	Callback = function(Value)
+		_G.autokg = Value
+		autokg()
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24045,15120,13755,24150,14910,14385,23940,19320,15750,24255,15645,14700}),
+	Icon = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({11970,10290,12600,10185,12075,12075,10605,12180,11025,10500,6090,4935,4935,5460,5460,5880,5355,5355,5460,5565,5985,5985,5880}),
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24150,14595,20055,24150,15750,19425,24045,16485,15855}),
+	Default = false,
+	Callback = function(Value)
+		_G.autona = Value
+		autona()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24045,15120,13755,24150,15750,19425,24045,16485,15855}),
+	Default = false,
+	Callback = function(Value)
+		_G.autoci = Value
+		autoci()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24045,14175,19530,24045,15540,18270}),
+	Default = false,
+	Callback = function(Value)
+		_G.chise = Value
+		chise()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,23940,19320,17010,24150,15750,19425,24045,16485,15855}),
+	Default = false,
+	Callback = function(Value)
+		_G.chidiu = Value
+		chidiu()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24360,18900,18165,23940,19425,18480,24150,16380,13440,24045,17220,17535,24045,17220,17535,24045,18480,15015}),
+	Default = false,
+	Callback = function(Value)
+		_G.chida = Value
+		chida()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24360,18900,18165,23940,19425,18480,24255,17535,19635,24045,14490,17640,24465,13440,16695,24045,19530,17430}),
+	Default = false,
+	Callback = function(Value)
+		_G.chiys = Value
+		chiys()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24360,18900,18165,23940,19425,18480,24045,17220,17535,24045,18480,15015,23940,19425,15960,24150,15645,18480}),
+	Default = false,
+	Callback = function(Value)
+		_G.chixd = Value
+		chixd()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24360,18900,18165,23940,19425,18480,24045,15120,13755,24255,16170,13860,24465,13440,16695,24045,19530,17430}),
+	Default = false,
+	Callback = function(Value)
+		_G.chisu = Value
+		chisu()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24465,17010,14070,24045,15015,15750,24255,18060,18060,23940,19320,13440,24360,16905,14700,24045,16380,17640,24255,19530,20055,24045,17325,15750,24045,14490,18585}),
+	Default = false,
+	Callback = function(Value)
+		_G.chiq1 = Value
+		chiq1()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24465,17010,14070,24045,15015,15750,24255,18060,18060,23940,19530,14700,23940,19320,17850,24045,16380,17640,24255,19530,20055,24045,17325,15750,24045,14490,18585}),
+	Default = false,
+	Callback = function(Value)
+		_G.chiq2 = Value
+		chiq2()
+	end    
+})
+
+Tab:AddToggle({
+	Name = WCPlOxAcqpaqgFzhMaDeTaVFlTohnxpWspKbHsjSgJpECAdBkoXcIXZHuhtWkkaFNnGQGEwlQtVSqtvc({24360,14175,17850,24045,14490,17640,24465,17010,14070,24045,15015,15750,24255,18060,18060,23940,19320,14385,24360,16905,14700,24045,16380,17640,24255,19530,20055,24045,17325,15750,24045,14490,18585}),
+	Default = false,
+	Callback = function(Value)
+		_G.chiq3 = Value
+		chiq3()
+	end    
+}) 
