@@ -1,0 +1,54 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/atoyayaya/wangzhan/main/xiba')))()
+
+local Window = OrionLib:MakeWindow({Name = "力量传奇", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+            --重生
+            getgenv().re1 = false
+            getgenv().re580 = false
+            getgenv().re980 = false
+            getgenv().re1480 = false
+            getgenv().re2080 = false
+            getgenv().re2780 = false
+            getgenv().re3580 = false
+            getgenv().re4480 = false
+            getgenv().re5480 = false
+            getgenv().re6580 = false
+            getgenv().re7780 = false
+            getgenv().re9080 = false
+            getgenv().re13580 = false
+            getgenv().re15280 = false
+            getgenv().re17080 = false
+            getgenv().re18980 = false
+
+
+local Tab = Window:MakeTab({
+	Name = "自动重生",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+_G.dzcs = true
+
+function dzcs()
+	while _G.dzcs == true do
+	wait()
+            function re1()
+                while getgenv().re1 == true do
+                    wait(0.5)
+                    if game.Players.LocalPlayer.leaderstats.Rebirths.Value ~= 1 then
+                        local localPlayer = game:GetService("Players").LocalPlayer
+                        game:GetService("ReplicatedStorage").rEvents.rebirthRemote:InvokeServer("rebirthRequest")
+                    end	
+                end
+            end
+	end
+end
+
+Tab:AddToggle({
+	Name = "自动重生到1",
+	Default = false,
+	Callback = function(Value)
+	_G.dzcs = Value
+	    dzcs()	
+	end    
+})
