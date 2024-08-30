@@ -371,7 +371,7 @@ local NotificationHolder = SetProps(SetChildren(MakeElement("TFrame"), {
 	Parent = Orion
 })
 
-function OrionLib:MakeNotification(NotificationConfig)
+function OrionLib:Tongzhication(NotificationConfig)
 	spawn(function()
 		NotificationConfig.Name = NotificationConfig.Name or "Notification"
 		NotificationConfig.Content = NotificationConfig.Content or "Test"
@@ -434,7 +434,7 @@ function OrionLib:Init()
 		pcall(function()
 			if isfile(OrionLib.Folder .. "/" .. game.GameId .. ".txt") then
 				LoadCfg(readfile(OrionLib.Folder .. "/" .. game.GameId .. ".txt"))
-				OrionLib:MakeNotification({
+				OrionLib:Tongzhication({
 					Name = "Configuration",
 					Content = "Auto-loaded configuration for the game " .. game.GameId .. ".",
 					Time = 5
@@ -641,7 +641,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		MainWindow.Visible = false
 		MobileReopenButton.Visible = true
 		UIHidden = true
-		OrionLib:MakeNotification({
+		OrionLib:Tongzhication({
 			Name = "Interface Hidden",
 			Content = "Tap Left Control to reopen the interface",
 			Time = 5
@@ -907,7 +907,7 @@ function OrionLib:MakeWindow(WindowConfig)
 
 				return Button
 			end    
-			function ElementFunction:AddToggle(ToggleConfig)
+			function ElementFunction:TianJiaToggle(ToggleConfig)
 				ToggleConfig = ToggleConfig or {}
 				ToggleConfig.Name = ToggleConfig.Name or "Toggle"
 				ToggleConfig.Default = ToggleConfig.Default or false
@@ -1084,7 +1084,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				end
 				return Slider
 			end  
-			function ElementFunction:AddDropdown(DropdownConfig)
+			function ElementFunction:TianJiaXiahua(DropdownConfig)
 				DropdownConfig = DropdownConfig or {}
 				DropdownConfig.Name = DropdownConfig.Name or "Dropdown"
 				DropdownConfig.Options = DropdownConfig.Options or {}
@@ -1360,7 +1360,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				end
 				return Bind
 			end  
-			function ElementFunction:AddTextbox(TextboxConfig)
+			function ElementFunction:TianJiaShuru(TextboxConfig)
 				TextboxConfig = TextboxConfig or {}
 				TextboxConfig.Name = TextboxConfig.Name or "Textbox"
 				TextboxConfig.Default = TextboxConfig.Default or ""
@@ -1438,7 +1438,7 @@ function OrionLib:MakeWindow(WindowConfig)
 					TweenService:Create(TextboxFrame, TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(OrionLib.Themes[OrionLib.SelectedTheme].Second.R * 255 + 6, OrionLib.Themes[OrionLib.SelectedTheme].Second.G * 255 + 6, OrionLib.Themes[OrionLib.SelectedTheme].Second.B * 255 + 6)}):Play()
 				end)
 			end 
-			function ElementFunction:AddColorpicker(ColorpickerConfig)
+			function ElementFunction:TianJiaYan(ColorpickerConfig)
 				ColorpickerConfig = ColorpickerConfig or {}
 				ColorpickerConfig.Name = ColorpickerConfig.Name or "Colorpicker"
 				ColorpickerConfig.Default = ColorpickerConfig.Default or Color3.fromRGB(255,255,255)
@@ -1628,7 +1628,7 @@ function OrionLib:MakeWindow(WindowConfig)
 
 		local ElementFunction = {}
 
-		function ElementFunction:AddSection(SectionConfig)
+		function ElementFunction:TianJiaBufen(SectionConfig)
 			SectionConfig.Name = SectionConfig.Name or "Section"
 
 			local SectionFrame = SetChildren(SetProps(MakeElement("TFrame"), {
@@ -1789,7 +1789,7 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
   VerticalAlignment = "Bottom"
 })
 
-function OrionLib:MakeNotifi(Configs)
+function OrionLib:Tongzhi(Configs)
   local Title = Configs.Title or "Title!"
   local text = Configs.Text or "Notification content... what will it say??"
   local timewait = Configs.Time or 5
