@@ -814,7 +814,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				end
 				return LabelFunction
 			end
-			function ElementFunction:AddParagraph(Text, Content)
+			function ElementFunction:TS(Text, Content)
 				Text = Text or "Text"
 				Content = Content or "Content"
 
