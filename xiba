@@ -989,7 +989,7 @@ function OrionLib:CH(WindowConfig)
 				end	
 				return Toggle
 			end  
-			function ElementFunction:AddSlider(SliderConfig)
+			function ElementFunction:Tianhua(SliderConfig)
 				SliderConfig = SliderConfig or {}
 				SliderConfig.Name = SliderConfig.Name or "Slider"
 				SliderConfig.Min = SliderConfig.Min or 0
